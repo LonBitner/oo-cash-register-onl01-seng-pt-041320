@@ -14,7 +14,7 @@ class CashRegister
   def apply_discount
     self.total -= @total * @discount / 100
     return "After the discount, the total comes to $800."
-    return ""
+    return "There is no discount to apply."
   end
   
 end
