@@ -20,4 +20,8 @@ class CashRegister
     return "After the discount, the total comes to $#{@total}."
   end
   
+  def items
+    item_names = []
+    @cart.each
+  end  
 end
